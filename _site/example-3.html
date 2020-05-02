@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="generator" content="Jekyll">
 
-	<title>Example 3</title>
+	<title>Using K-Nearest Neighbors</title>
 
 	<!-- CSS & fonts -->
 	<link rel="stylesheet" href="/mywork/css/main.css">
@@ -32,7 +32,7 @@
 	    
 	  
 	    
-	      <a href="/mywork//about" title="About Emerald">About Emerald</a>
+	      <a href="/mywork//about" title="About Me">About Me</a>
 	    
 	  
 	    
@@ -71,8 +71,8 @@
       
         <header id="header">
 	<a href="/mywork/">
-		<img src="/mywork/img/emerald.svg" alt="Emerald Logo">
-	  <h1>emerald</h1>
+		<img src="/mywork/img/emerald.png" alt="Emerald Logo">
+	  <h1>Machine Learning and Artificial Intelligence</h1>
 	</a>
 </header>
 
@@ -84,13 +84,23 @@
 		<main>
 
 			<article id="post-page">
-	<h2>Example 3</h2>		
+	<h2>Using K-Nearest Neighbors</h2>		
 	<time datetime="2019-10-25T00:00:00+05:30" class="by-line">25 Oct 2019</time>
 	<div class="content">
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt blanditiis cum dolore beatae facilis molestias ut a doloribus recusandae delectus, repudiandae, rerum quo eaque quaerat enim dolores perspiciatis voluptatum odio accusamus! Doloribus fuga provident, magni eaque consequatur quia incidunt similique. Nostrum animi facere mollitia, corrupti vitae, itaque maiores consequatur, explicabo, sapiente molestiae consequuntur! Aliquam hic dolorum atque dolorem repudiandae nostrum optio praesentium quisquam vero. Nostrum illum modi aut, ratione qui! Quas laudantium, soluta asperiores minima molestiae similique consequatur ut.</p>
+		<p>In this blog we are going to investigate about a Supervised Machine Learning algorithm:K-Nearest Neighbors.This algorithm is basically based on the fact that similar things happen near their own kind.We will be measuring closeness of the given data-point with the other available classes.The “K” (in k-nearest neighbor) denotes the number of neighboring data points to be taken under consideration;if classification,that class having the larger no. of data points wins.<figure></figure></p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ad tenetur, numquam aliquid excepturi fuga. Pariatur numquam rem possimus, optio voluptate aspernatur ex, ipsum tenetur earum molestiae nulla suscipit sequi labore fugit repudiandae natus? Nam vel rem, rerum maxime harum. Molestias suscipit quaerat molestiae dolores fuga earum modi, distinctio repellat, laborum commodi quibusdam ex dolore, eius maiores architecto necessitatibus. Repellendus a vitae, est nesciunt. Aspernatur fugiat labore cumque, optio, magni, aperiam ut totam error eligendi iure culpa illum dolorum quam?</p>
+<p>The algorithm for the K-nearest neighbour:
+ 1.Load the data and initialise the value of k
+ 2.Iterate from 1 to total no. of data points in training dataset
+ 3.Calculate the distance between the test data and each training data using euclidean distance metric.Other metrics of distance measurement includes Manhattan,Minkowski,Hamming,Chevshev ,etc.
+ 4.Sort the calculated distance in ascending order and enlist top k rows.
+ 5.The most frequent occuring class will be your answer.</p>
+
+<p>Also,we are going to implement the code in python:-
+ <code class="highlighter-rouge">import math
+  from collections import Counter
+   def knn(data,)</code></p>
 
 		
 	</div>

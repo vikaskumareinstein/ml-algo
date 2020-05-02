@@ -4,7 +4,7 @@
  <title>Vikas Kumar blogs</title>
  <link href="http://www.github.com/vikaskumareinstein/mywork/atom.xml" rel="self"/>
  <id>http://www.github.com/vikaskumareinstein/mywork</id>
- <updated>2020-04-06T23:34:04+05:30</updated>
+ <updated>2020-05-03T05:16:59+05:30</updated>
  <author>
    <name>Vikas Kumar</name>
    <uri>http://www.github.com/vikaskumareinstein/mywork</uri>
@@ -17,7 +17,7 @@
    <title></title>
    <link href="http://www.github.com/vikaskumareinstein/mywork/2019-10-17-example-1"/>
    <id>http://www.github.com/vikaskumareinstein/mywork/2019-10-17-example-1</id>
-   <updated>2020-04-06T23:34:04+05:30</updated>
+   <updated>2020-05-03T05:16:59+05:30</updated>
    <content type="html">&lt;p&gt;Tools to be explored: NumPy Scipy Matplotlib Ipython Scikit-learn Jupyter Notebook&lt;/p&gt; &lt;p&gt;NumPy: It is one of the fundamental package used in Machine Learning and Scientific Computing in Python.It contains ndarrays as its core data structure.It has the fuctionality to represent entities to multidimensional arrays and perform various manipulations as well...</content>
  </entry>
 
@@ -95,21 +95,21 @@
  
 
  <entry>
-   <title>Example 4</title>
+   <title>k-armed Bandit Problem and related algorithms</title>
    <link href="http://www.github.com/vikaskumareinstein/mywork/example-4"/>
    <id>http://www.github.com/vikaskumareinstein/mywork/example-4</id>
    <updated>2019-10-27T00:00:00+05:30</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <content type="html">&lt;p&gt;In this blog we will be discussing about the k-armed bandit problem i.e. slot machines.We will be getting some rewards by pulling the lever of the machine which has (in this scenario) stationary probability distribution.Putting more simply,the reward will not change over time for the given slot machine.The reward is...</content>
  </entry>
 
  
 
  <entry>
-   <title>Example 3</title>
+   <title>Using K-Nearest Neighbors</title>
    <link href="http://www.github.com/vikaskumareinstein/mywork/example-3"/>
    <id>http://www.github.com/vikaskumareinstein/mywork/example-3</id>
    <updated>2019-10-25T00:00:00+05:30</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <content type="html">&lt;p&gt;In this blog we are going to investigate about a Supervised Machine Learning algorithm:K-Nearest Neighbors.This algorithm is basically based on the fact that similar things happen near their own kind.We will be measuring closeness of the given data-point with the other available classes.The “K” (in k-nearest neighbor) denotes the number...</content>
  </entry>
 
  

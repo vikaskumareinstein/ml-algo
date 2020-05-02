@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="generator" content="Jekyll">
 
-	<title>Example 4</title>
+	<title>k-armed Bandit Problem and related algorithms</title>
 
 	<!-- CSS & fonts -->
 	<link rel="stylesheet" href="/mywork/css/main.css">
@@ -32,7 +32,7 @@
 	    
 	  
 	    
-	      <a href="/mywork//about" title="About Emerald">About Emerald</a>
+	      <a href="/mywork//about" title="About Me">About Me</a>
 	    
 	  
 	    
@@ -71,8 +71,8 @@
       
         <header id="header">
 	<a href="/mywork/">
-		<img src="/mywork/img/emerald.svg" alt="Emerald Logo">
-	  <h1>emerald</h1>
+		<img src="/mywork/img/emerald.png" alt="Emerald Logo">
+	  <h1>Machine Learning and Artificial Intelligence</h1>
 	</a>
 </header>
 
@@ -84,13 +84,28 @@
 		<main>
 
 			<article id="post-page">
-	<h2>Example 4</h2>		
+	<h2>k-armed Bandit Problem and related algorithms</h2>		
 	<time datetime="2019-10-27T00:00:00+05:30" class="by-line">27 Oct 2019</time>
 	<div class="content">
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt blanditiis cum dolore beatae facilis molestias ut a doloribus recusandae delectus, repudiandae, rerum quo eaque quaerat enim dolores perspiciatis voluptatum odio accusamus! Doloribus fuga provident, magni eaque consequatur quia incidunt similique. Nostrum animi facere mollitia, corrupti vitae, itaque maiores consequatur, explicabo, sapiente molestiae consequuntur! Aliquam hic dolorum atque dolorem repudiandae nostrum optio praesentium quisquam vero. Nostrum illum modi aut, ratione qui! Quas laudantium, soluta asperiores minima molestiae similique consequatur ut.</p>
+		<p>In this blog we will be discussing about the k-armed bandit problem i.e. slot machines.We will be getting some rewards by pulling the lever of the machine which has (in this scenario) stationary probability distribution.Putting more simply,the reward will not change over time for the given slot machine.The reward is fixed for each slot machine but not known to us.Through repeated actions (in this case pulling the lever) we have to maximise the reward.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ad tenetur, numquam aliquid excepturi fuga. Pariatur numquam rem possimus, optio voluptate aspernatur ex, ipsum tenetur earum molestiae nulla suscipit sequi labore fugit repudiandae natus? Nam vel rem, rerum maxime harum. Molestias suscipit quaerat molestiae dolores fuga earum modi, distinctio repellat, laborum commodi quibusdam ex dolore, eius maiores architecto necessitatibus. Repellendus a vitae, est nesciunt. Aspernatur fugiat labore cumque, optio, magni, aperiam ut totam error eligendi iure culpa illum dolorum quam?</p>
+<p>We denote the action selected on time step t as A_t and the corresponding reward as R_t.So, the value of any arbitrary action <em>a</em> is the expected reward given <em>a</em> is selected :</p>
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>q_<em>(</em>a*)=E[R_t</td>
+        <td>A_t=<em>a</em>].</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p><strong>EXPECTED REWARD</strong>
+Expectation of any random variable is the sum of all the possible values weighted by its probability.So,the above formula can be interpreted as Probability of reward R_t=r given A_t=a multiplied by</p>
+</blockquote>
 
 		
 	</div>
