@@ -4,7 +4,7 @@
  <title>Vikas Kumar blogs</title>
  <link href="http://www.github.com/vikaskumareinstein/mywork/atom.xml" rel="self"/>
  <id>http://www.github.com/vikaskumareinstein/mywork</id>
- <updated>2020-05-03T05:16:59+05:30</updated>
+ <updated>2020-05-03T05:30:59+05:30</updated>
  <author>
    <name>Vikas Kumar</name>
    <uri>http://www.github.com/vikaskumareinstein/mywork</uri>
@@ -17,7 +17,7 @@
    <title></title>
    <link href="http://www.github.com/vikaskumareinstein/mywork/2019-10-17-example-1"/>
    <id>http://www.github.com/vikaskumareinstein/mywork/2019-10-17-example-1</id>
-   <updated>2020-05-03T05:16:59+05:30</updated>
+   <updated>2020-05-03T05:30:59+05:30</updated>
    <content type="html">&lt;p&gt;Tools to be explored: NumPy Scipy Matplotlib Ipython Scikit-learn Jupyter Notebook&lt;/p&gt; &lt;p&gt;NumPy: It is one of the fundamental package used in Machine Learning and Scientific Computing in Python.It contains ndarrays as its core data structure.It has the fuctionality to represent entities to multidimensional arrays and perform various manipulations as well...</content>
  </entry>
 
