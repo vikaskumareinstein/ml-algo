@@ -4,7 +4,7 @@
  <title>Vikas Kumar blogs</title>
  <link href="http://www.github.com/vikaskumareinstein/mywork/atom.xml" rel="self"/>
  <id>http://www.github.com/vikaskumareinstein/mywork</id>
- <updated>2020-08-02T13:35:53+05:30</updated>
+ <updated>2020-08-02T13:53:32+05:30</updated>
  <author>
    <name>Vikas Kumar</name>
    <uri>http://www.github.com/vikaskumareinstein/mywork</uri>
@@ -99,9 +99,7 @@
    <link href="http://www.github.com/vikaskumareinstein/mywork/example-5"/>
    <id>http://www.github.com/vikaskumareinstein/mywork/example-5</id>
    <updated>2019-10-28T00:00:00+05:30</updated>
-   <content type="html">&lt;p&gt;Decision Trees are widely used models for classification as well as regression tasks. In this approach in order to distinguish between certain class a series of if/else questions are asked and based on the answers the items are classified.
-&lt;img src=&quot;/img/decision_trees.png&quot; alt=&quot;images&quot; /&gt;&lt;/p&gt;
-</content>
+   <content type="html">&lt;p&gt;Decision Trees are widely used models for classification as well as regression tasks. In this approach in order to distinguish between certain class a series of if/else questions are asked and based on the answers the items are classified.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/mywork//img/decision_trees.png&quot; width=&quot;400&quot; height=&quot;300&quot; /&gt;            ...</content>
  </entry>
 
  
