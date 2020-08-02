@@ -4,7 +4,7 @@
  <title>Vikas Kumar blogs</title>
  <link href="http://www.github.com/vikaskumareinstein/mywork/atom.xml" rel="self"/>
  <id>http://www.github.com/vikaskumareinstein/mywork</id>
- <updated>2020-05-03T05:30:59+05:30</updated>
+ <updated>2020-08-02T13:32:49+05:30</updated>
  <author>
    <name>Vikas Kumar</name>
    <uri>http://www.github.com/vikaskumareinstein/mywork</uri>
@@ -14,17 +14,27 @@
  
 
  <entry>
-   <title></title>
-   <link href="http://www.github.com/vikaskumareinstein/mywork/2019-10-17-example-1"/>
-   <id>http://www.github.com/vikaskumareinstein/mywork/2019-10-17-example-1</id>
-   <updated>2020-05-03T05:30:59+05:30</updated>
-   <content type="html">&lt;p&gt;Tools to be explored: NumPy Scipy Matplotlib Ipython Scikit-learn Jupyter Notebook&lt;/p&gt; &lt;p&gt;NumPy: It is one of the fundamental package used in Machine Learning and Scientific Computing in Python.It contains ndarrays as its core data structure.It has the fuctionality to represent entities to multidimensional arrays and perform various manipulations as well...</content>
+   <title>LeNet - CNN in python Text Recognition</title>
+   <link href="http://www.github.com/vikaskumareinstein/mywork/Text_Recognition"/>
+   <id>http://www.github.com/vikaskumareinstein/mywork/Text_Recognition</id>
+   <updated>2020-06-27T00:00:00+05:30</updated>
+   <content type="html">&lt;p&gt;In this blog we will be discussing Text Recognition and going to implement a simple but revolutionary Convolutional Neural Network : LeNet.The LeNet architecture is simple and doesnot take very much computational power.It will run on the CPU.&lt;/p&gt; &lt;p&gt;We are going to implement it using Python and Keras.Keras is an...</content>
  </entry>
 
  
 
  <entry>
-   <title>Small text</title>
+   <title>Object Tracking</title>
+   <link href="http://www.github.com/vikaskumareinstein/mywork/Image_Processing"/>
+   <id>http://www.github.com/vikaskumareinstein/mywork/Image_Processing</id>
+   <updated>2020-06-05T00:00:00+05:30</updated>
+   <content type="html">&lt;p&gt;We are going to learn a simple object tracking technique using OpenCV python package. We know for better representation of color we use HSV(Hue-Saturation-Value) color format. Hue range is [0,179];Saturation range is [0,255] ; Value range is [0,255]. You can find the list of whole color conversion flags using the...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Small Text</title>
    <link href="http://www.github.com/vikaskumareinstein/mywork/small-text"/>
    <id>http://www.github.com/vikaskumareinstein/mywork/small-text</id>
    <updated>2019-11-20T00:00:00+05:30</updated>
@@ -85,11 +95,14 @@
  
 
  <entry>
-   <title>Example 5</title>
+   <title>Decision Trees</title>
    <link href="http://www.github.com/vikaskumareinstein/mywork/example-5"/>
    <id>http://www.github.com/vikaskumareinstein/mywork/example-5</id>
    <updated>2019-10-28T00:00:00+05:30</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <content type="html">&lt;p&gt;Decision Trees are widely used models for classification as well as regression tasks. In this approach in order to distinguish between certain class a series of if/else questions are asked and based on the answers the items are classified.
+&lt;img src=&quot;/img/decision_trees.png&quot; alt=&quot;images&quot; /&gt;
+&lt;img src=&quot;/mywork//img/decision_trees.png&quot; /&gt;&lt;/p&gt;
+</content>
  </entry>
 
  
@@ -100,16 +113,6 @@
    <id>http://www.github.com/vikaskumareinstein/mywork/example-4</id>
    <updated>2019-10-27T00:00:00+05:30</updated>
    <content type="html">&lt;p&gt;In this blog we will be discussing about the k-armed bandit problem i.e. slot machines.We will be getting some rewards by pulling the lever of the machine which has (in this scenario) stationary probability distribution.Putting more simply,the reward will not change over time for the given slot machine.The reward is...</content>
- </entry>
-
- 
-
- <entry>
-   <title>Using K-Nearest Neighbors</title>
-   <link href="http://www.github.com/vikaskumareinstein/mywork/example-3"/>
-   <id>http://www.github.com/vikaskumareinstein/mywork/example-3</id>
-   <updated>2019-10-25T00:00:00+05:30</updated>
-   <content type="html">&lt;p&gt;In this blog we are going to investigate about a Supervised Machine Learning algorithm:K-Nearest Neighbors.This algorithm is basically based on the fact that similar things happen near their own kind.We will be measuring closeness of the given data-point with the other available classes.The “K” (in k-nearest neighbor) denotes the number...</content>
  </entry>
 
  

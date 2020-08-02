@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="generator" content="Jekyll">
+
+	<title>Object Tracking</title>
+
+	<!-- CSS & fonts -->
+	<link rel="stylesheet" href="/mywork/css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic%7CSignika:700,300,400,600' rel='stylesheet' type='text/css'>
+
+	<!-- RSS -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+
+</head>
+
+
+<body>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	<nav id="nav">
+	<div id="nav-list">
+		<a href="/mywork/">Home</a>
+
+		<!-- Nav pages -->
+	  
+	    
+	  
+	    
+	      <a href="/mywork//about" title="About Me">About Me</a>
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+    
+    <!-- Nav links -->
+	  <a href="https://drive.google.com/open?id=1ZnSJNGUPw1LP5sfDI-In7fr5fsb2paTq">Download Resume</a>
+<a href="https://github.com/vikaskumareinstein">Project on Github</a>
+
+	</div>
+  
+  <!-- Nav footer -->
+	
+	  <footer>
+	
+	<span>version 1.1.0</span>
+
+</footer>
+	
+
+</nav>
+
+    
+    <!-- Icon menu -->
+	  <a id="nav-menu">
+	  	<div id="menu"></div>
+	  </a>
+
+      <!-- Header -->
+      
+        <header id="header">
+	<a href="/mywork/">
+		<img src="/mywork/img/emerald.png" alt="Emerald Logo">
+	  <h1>Machine Learning and Artificial Intelligence</h1>
+	</a>
+</header>
+
+      
+
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
+
+			<article id="post-page">
+	<h2>Object Tracking</h2>		
+	<time datetime="2020-06-05T00:00:00+05:30" class="by-line">05 Jun 2020</time>
+	<div class="content">
+
+		<p>We are going to learn a simple object tracking technique using OpenCV python package.
+We know for better representation of color we use HSV(Hue-Saturation-Value) color format.
+Hue range is [0,179];Saturation range is [0,255] ; Value range is [0,255].
+You can find the list of whole color conversion flags using the below code:
+<code class="highlighter-rouge">import cv2</code>
+<code class="highlighter-rouge">flags=[i for i in dir(cv2) if i.startswith('COLOR_')]</code>
+<code class="highlighter-rouge">print(flags)</code></p>
+
+<p>As,OpenCV uses BGR format(not RGB which is the common format).So for conversion from BGR-&gt;HSV use <code class="highlighter-rouge">cv2.COLOR_BGR2HSV</code>.For BGR-&gt;GRAY use <code class="highlighter-rouge">cv2.COLOR_BGR2GRAY</code>.</p>
+
+<p>In this post, a particular color object will be extracted and tracked in a video.We will use a blue color object in particular.</p>
+
+<p>###STEPS:</p>
+<ol>
+  <li>Take each frame of the video.</li>
+  <li>Convert to hsv color-space.</li>
+  <li>Extract the range of blue color by thresholding.</li>
+</ol>
+
+<p>You might not be familiar with the concept of thresholding.It is a segmentation technique in which we take a particular image and convert it into binary image of black and white(simple binary thresholding).</p>
+
+<p>Look at the below code and try implementing yourself.Code is commented for your convenience.</p>
+
+<p><code class="highlighter-rouge">import cv2</code>
+<code class="highlighter-rouge">import numpy as np</code>
+<code class="highlighter-rouge">cap = cv2.VideoCapture(0)	#Capture from the camera</code>
+<code class="highlighter-rouge">cap = cv2.VideoCapture('&lt;path to your video&gt;')</code>
+<code class="highlighter-rouge">while(True):		#Infinite loop until break</code>
+`	ret,frame=cap.read()	#reading each frame and saving to frame variable<code class="highlighter-rouge">
+</code>	hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)	#BGR to HSV color space.<code class="highlighter-rouge">
+</code>	lower_blue=np.array([110,50,50])<code class="highlighter-rouge">
+</code>	high_blue = np.array([130,255,255])<code class="highlighter-rouge">
+</code>	mask = cv2.inRange(hsv,lower_blue,high_blue)	#specified hsv<image>,lower and upper color range as array for thresholding`</image></p>
+
+<p>``</p>
+
+		
+	</div>
+</article>
+
+
+
+	  </main>
+		
+		  <!-- Pagination links -->
+      
+
+	  </div>
+	    
+	    <!-- Footer -->
+	    <footer class="footer"><span>@2015 - Emerald</span></footer>
+
+	    <!-- Script -->
+      <script src="/mywork/js/main.js"></script>	
+
+
+	</div>
+</body>
+</html>
