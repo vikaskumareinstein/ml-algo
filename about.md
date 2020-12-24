@@ -45,29 +45,27 @@ I have relevant experience in these:
 
 
 ### **Conference and Workshops Attended:**
-<ul>
 
-- >**Workshop on Data Science**<br>
+>**Workshop on Data Science**<br>
 Organized by Vision Cog and NIT Arunachal Pradesh<br>
 Aug 2020
 
-- >**Idea Generation,Creative Thinking and IPR**<br>
+>**Idea Generation,Creative Thinking and IPR**<br>
 Organized by APSCST,Govt. of Arunachal Pradesh, NIT Arunachal Pradesh
 Sep 2019
 
-- >**Augmented Reality**<br>
+>**Augmented Reality**<br>
 Organized by Infi-Zeal and NIT Arunachal Pradesh
 Oct 2018
 
-- >**Blockchain Technology**
+>**Blockchain Technology**
 Organized by NIT Arunachal Pradesh
 Feb 2020
 
-- >**Large Scale Least Squares Twin SVMs by M. Tanveer**
+>**Large Scale Least Squares Twin SVMs by M. Tanveer**
 Organized by SHRI VAISHNAV VIDYAPEETH VISHWAVIDYALAYA, INDORE
 Aug 2020
 
-</ul>
 
 ### Social Presence:
 
